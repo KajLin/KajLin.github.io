@@ -11,12 +11,12 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 $text-color:       black !default;
-$background-color: #B2DFDB!default;
-$brand-color:      #00796B !default;
+$background-color: white !default;
+$brand-color:      black !default;
 
-$grey-color:       #272727 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-color:       white  !default;
+$grey-color-light: white !default;
+$grey-color-dark:  white !default;
 
 // Width of the content area
 $content-width:    800px !default;
@@ -50,62 +50,3 @@ $on-laptop:        800px !default;
 "minima/syntax-highlighting"
 ;
 
-
-/**
- * Style for navigation.
- */
-
-
-nav{
-  
-      a{
-        background-color:white;
-        padding: 10px;
-        border-radius: 20px;
-      }
-      
-      a:hover {
-        background: #80CBC4
-      } 
-  }
-
-/**
- * Style for images.
- */
-
-
-img {   
-        border-radius: 999px;
-        height: 200px;
-        width:200px; 
-        border: 5px solid #00796B; 
-        margin-bottom: 30px;
-}
-
-
-/**
- * Style for page-heading.
- */
-
-.page-heading {
-  @include relative-font-size(2);
-
-}
-
-
-
-.site-title {
-  @include relative-font-size(1.625);
-  font-weight: 600;
-  font-size: 40px;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  margin-bottom: 15px;
-  float: left;
-}
-
-
-/**
- * Paragraph style.
- */
-
-p {font-size: 14px }

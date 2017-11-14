@@ -15,11 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: Kajsa Lindelöw
 email: kajsa.lindelow@gmail.com
+github_username: KajLin
 description: >- # this means to ignore newlines until "baseurl:"
-  Välkommen till min webbsida!
+  Welcome! This is a web site created for examination 1 in the course 1DV022 at Linnéuniversitetet.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
 # Build settings
 markdown: kramdown
 theme: minima
