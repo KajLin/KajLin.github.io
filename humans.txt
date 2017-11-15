@@ -1,0 +1,22 @@
+    /* TEAM */
+                          
+    Owner: Kajsa Lindelöw                         
+    Contact: kajsa.lindelow@gmail.com   
+    GitHub: KajLin                                   
+    Location: Stockholm, Sweden.
+
+                                               
+    /* SITE */
+                         
+    Last update: 2017/11/15                       
+    Standards: HTML5, CSS3.                      
+    Components: Disqus,GitHub,jQuery.                    
+    Software: Jekyll, Sass.
+       
+                            
+
+
+                    
+                      
+
+                            
