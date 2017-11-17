@@ -12,10 +12,11 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: 600;
+  font-size: 40px;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   float: left;
 
   &,
@@ -125,7 +126,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: white;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -194,7 +195,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: black;
 }
 
 .post-link {
@@ -204,6 +205,7 @@
 
 
 .post-title {
+  color: $brand-color;
   @include relative-font-size(2);
   letter-spacing: -1px;
   line-height: 1;
@@ -242,10 +244,10 @@
 }
 
 /**
- * Style for image Kajsa.
+ * Style for profile picture.
  */
 
- #pictures img {   
+#pictures img {   
   border-radius: 999px;
   height: 200px;
   width:200px; 
@@ -268,27 +270,35 @@
       }
       
       a:hover {
-        background: #61b6a9
+        background-color: #2baaaa;
       } 
   }
-
-.site-title {
-  @include relative-font-size(1.625);
-  font-weight: 600;
-  font-size: 40px;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  margin-bottom: 15px;
-  float: left;
-}
 
 /**
  * Paragraph style.
  */
 
-p {font-size: 14px }
+p { 
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/**
+ * Style for header and footer.
+ */
 
 header,footer {background-image:url(../pics/ice.jpg)}
 
-main{background-color:$background-color}
+/**
+ * Style for main.
+ */
+
+main {background-color:$background-color}
+
+/**
+ * Style for header.
+ */
 
 h5 {font-weight:bold}
+
+
