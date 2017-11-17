@@ -17,4 +17,4 @@ Disallow: /
 
 
 ##### What is humans.txt and how have you configured it?
-Humans.txt is a file where you add information about your website. You can specify information about the team, owner, contact, development tools etc. I have configured my humans.txt by adding short information about me and how to contact me and information about the development tools I’ve used in this project.
+Humans.txt is a file where you add information about your website. You can specify information about the team, owner, contact, development tools etc. I have configured my humans.txt by adding short information about me and how to contact me, and information about the development tools I’ve used in this project.

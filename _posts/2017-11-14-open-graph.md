@@ -17,9 +17,9 @@ Open Graph is a protocol which you can use to control how your website will look
 
 {% highlight ruby %}
 og: title - The title of your object.
-og: type - The type of your object (for example - a website, blog post or video)
+og: type - The type of your object (website, blog post, video etc.)
 og: image- An image url which represents your object.
 og: url- The url of your object. 
 {% endhighlight %}
 
-For my website I found it enough to use only these four required properties. If you have a larger website with more content you might want to add more properties to choose from. There are intact a lot of optional data you can add, like audio, site name, description etc.
+For my website I found it enough to use only these four required properties. If you have a larger website with more content you might want to add more properties to choose from. There are infact a lot of optional data you can add, like audio, site name, description etc.
